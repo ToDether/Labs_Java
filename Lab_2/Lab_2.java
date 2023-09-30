@@ -49,7 +49,7 @@ public class Lab_2 {
                                 b = -0.34;
                                 c = 0.707;
                                 d = 2.312;
-                                y = (3*( Math.abs(b/a) + Math.sqrt(Math.sin(c)+ Math.exp(d))));
+                                y = 3.0*(Math.log10( Math.abs(b/a)) + Math.sqrt(Math.sin(c)+ Math.exp(d)));
                                 System.out.println("a = " + a);
                                 System.out.println("b = " + b);
                                 System.out.println("c = " + c);
